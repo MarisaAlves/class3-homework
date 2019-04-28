@@ -1,0 +1,4 @@
+A docker container is a unit of software that packages up code, as well as everything needed to run the code. This allows the application contained in the code to be run across all computing enviroments both quickly and reliably. It is similar to a virtual machine, but a docker container virtualizes the operating system. In short, it allows an application to be portable across all OS systems because it shares the original machine's system kernal.
+
+
+I would use a docker container if I were developing any software that needed to be able to run cross-platform. For example, if I were creating a program and I wanted it to be able to run on a Mac as well as a Windows computer. Putting all my code for the application in the container allows it to run smoothly on a Windows, despite having been coded on a Mac where there may be differences in syntax or compiler operations.
