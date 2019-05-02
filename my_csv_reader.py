@@ -30,4 +30,8 @@ for line in file.readlines():
 	i = i+1
 print(corrected_file)
 
+corrected_list = list(map(list,zip(*corrected_file)))
+print(corrected_list)
+
+
 file.close()
